@@ -280,7 +280,7 @@ function playerBounds(){
 function drawCanvas() {
   let game= gameArea.ctx
   game.beginPath();
-  game.fillStyle = "rgba(0, 128, 0)";
+  game.fillStyle = "black";
   game.fillRect(0, 0, 20, 600);
   game.fillRect(480, 0, 20, 600);
   game.fillStyle = "white"
